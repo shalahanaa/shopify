@@ -1,0 +1,31 @@
+.main-container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    left: 10%;
+}
+
+.main-btn{
+    height: 50px;
+    width: 40%;
+    position: relative;
+    top: 100px;
+    border: 1px solid green;
+    border-radius: 25px;
+    background: transparent;
+    color: white;
+}
+
+.main-btn:hover{
+    background-color: #5ce546;
+    color: gray;
+    cursor: pointer;
+}
+
+
+.up-arrow{
+    margin-left: 5px;
+    color: #5ce546;
+}

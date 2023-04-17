@@ -21,7 +21,7 @@ const Navbar = () => {
           </li>
           <li><BsFillBrightnessHighFill className="brightness"/></li>
           <li>Log in</li>
-          <li>Sign up</li>
+          <li className="signup">Sign up</li>
         </ul>
       </div>
     </div>
