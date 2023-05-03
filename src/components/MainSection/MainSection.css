@@ -5,17 +5,18 @@
     justify-content: right;
     position: absolute;
     left: 10%;
+    background-color: #151D1E ;
 }
 
 .main-btn{
     height: 50px;
-    width: 40%;
-    position: relative;
-    top: 100px;
+    width: 90%;
+    position: absolute;
     border: 1px solid green;
     border-radius: 25px;
     background: transparent;
     color: white;
+    right: 0;
 }
 
 .main-btn:hover{
@@ -28,4 +29,71 @@
 .up-arrow{
     margin-left: 5px;
     color: #5ce546;
+}
+
+
+.title{
+    color: white;
+    top: 50px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+}
+
+
+.main-left-side{
+    height: 500px;
+    width: 40%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-hr{
+    border: 1px solid #5ce546;
+    width: 60%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+.main-p{
+    color: rgb(247, 241, 241);
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    font-size: 13px;
+    width: 85%;
+}
+
+
+.main-a{
+    color: #5ce546;
+    position: absolute;
+    left: 0;
+    top: 450px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.main-logos{
+    width: 120%;
+    height: 170px;
+    border-top: 1px dashed #5ce546;
+    border-bottom: 1px dashed #5ce546;
+    position: absolute;
+    top: 800px;
+    left: -150px;
+}
+
+
+.logoimg{
+    width: 80%;
 }
